@@ -396,7 +396,7 @@ body {
         text-align:left;
         font-size: 24px;
         color:#4aaaa5;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: 8%;
         margin-right: 8%;
         padding-bottom: 20px;
@@ -735,7 +735,6 @@ textarea:placeholder-shown {
     padding: 4.5px 4px 4.5px 4px;
 }
 
-/* input[type=text] { */
 input {
     width: 88%;
     display: inline-block;
@@ -780,6 +779,105 @@ input {
 .subuton.active {
     background-color: #096977;
 }
+
+@media only screen and (max-width: 980px) and (min-width: 767px) {
+    .contactwrapper {
+        position: absolute;
+        margin-top: 50px;
+        height:auto;
+        left: 50%;
+        margin-left: -355Px;
+        background-color: #ffffff;
+        width: 420px;
+        padding-bottom: 20px;
+    }
+    
+    .contactfill {
+        color:#777777;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 8%;
+        margin-bottom: 5px;
+        margin-top:10px;
+        padding: 1px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    input::placeholder {
+        color: #cccccc;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    textarea::placeholder {
+        color: #cccccc;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    textarea {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    input:placeholder-shown {
+        border: 1px solid #d6d6d6;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    textarea:placeholder-shown {
+        border: 1px solid #d6d6d6;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    input {
+        width: 83%;
+        display: inline-block;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding: 4px 0 4px 7px;
+        border: 1px solid #bbbaba;
+    
+    }
+    
+    .text_message {
+        width: 83%;
+        display: inline-block;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 20px;
+        height: 170px;
+        resize: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 4px 0 4px 7px;
+        border: 1px solid #bbbaba;
+    }
+    
+    .subuton {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 10px 27px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 8%;
+        margin-bottom: 30px;
+    }
+    
+    .subuton:hover {
+        background-color: #087e8f;
+    }
+    
+    .subuton.active {
+        background-color: #096977;
+    }
+}
+
+
+
+
 /**************** Below is the CSS for the Contact.html Page End ***************/ 
 
 
