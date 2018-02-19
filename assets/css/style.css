@@ -875,7 +875,102 @@ input {
     }
 }
 
+@media only screen and (max-width: 768px) and (min-width: 641px) {
 
+    .contactwrapper {
+        position: absolute;
+        margin-top: 35px;
+        height:auto;
+        left: 50%;
+        margin-left: -325px;
+        background-color: #ffffff;
+        width: 650px;
+        padding-bottom: 20px;
+    }
+    
+    .contactfill {
+        color:#777777;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 8%;
+        margin-bottom: 5px;
+        margin-top:10px;
+        padding: 1px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    input::placeholder {
+        color: #cccccc;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    textarea::placeholder {
+        color: #cccccc;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    textarea {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    input:placeholder-shown {
+        border: 1px solid #d6d6d6;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    textarea:placeholder-shown {
+        border: 1px solid #d6d6d6;
+        padding: 4.5px 4px 4.5px 4px;
+    }
+    
+    input {
+        width: 84%;
+        display: inline-block;
+        margin-left: 8%;
+        margin-right: 5%;
+        padding: 4px 0 4px 7px;
+        border: 1px solid #bbbaba;
+    
+    }
+    
+    .text_message {
+        width: 84%;
+        display: inline-block;
+        margin-left: 8%;
+        margin-right: 5%;
+        margin-bottom: 20px;
+        height: 170px;
+        resize: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 4px 0 4px 7px;
+        border: 1px solid #bbbaba;
+    }
+    
+    .subuton {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 10px 27px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 8%;
+        margin-bottom: 30px;
+    }
+    
+    .subuton:hover {
+        background-color: #087e8f;
+    }
+    
+    .subuton.active {
+        background-color: #096977;
+    }
+
+}
 
 
 /**************** Below is the CSS for the Contact.html Page End ***************/ 
