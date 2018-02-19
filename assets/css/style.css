@@ -783,7 +783,7 @@ input {
 @media only screen and (max-width: 980px) and (min-width: 767px) {
     .contactwrapper {
         position: absolute;
-        margin-top: 50px;
+        margin-top: 35px;
         height:auto;
         left: 50%;
         margin-left: -355Px;
@@ -1130,6 +1130,65 @@ input {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media only screen and (max-width: 980px) and (min-width: 767px) {
+
+    .portfolio_list {    
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .portfolio_img_1 {
+        position:relative;
+        left:0px;
+        flex: 1;
+        width: 80%;
+        height: 180px;
+        padding:0px 20px 0px 35px;
+        margin: 0 0 2em 0;
+    }
+    
+    .portfolio_img_2 {
+        position:relative;
+        left:0px;
+        flex: 1;
+        width: 80%;
+        height: 180px;
+        padding:0px 20px 0px 35px;
+        margin: 0 0 2em 0;
+    }
+    
+    .tag_1 {
+        
+        position: relative;
+        top:-290px;
+        flex: 1;
+        height: 20px;
+        width: 80%;
+        font-size: 15px;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        margin:0px 12.5px 0px 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .tag_2 {
+        
+        position: relative;
+        top:-112.5px;
+        flex: 1;
+        height: 20px;
+        width: 80%;
+        font-size: 15px;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        margin:0px 12.5px 0px 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+}
 
 
 /**************** Below is the CSS for the portfolio.html Page End ***************/ 
